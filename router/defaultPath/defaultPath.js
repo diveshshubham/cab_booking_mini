@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../../controller/index").defaultPage;
+
 let routes = (app) => {
-  router.get("/home", controller.homePage);
+  router.get("/home", (req,res) => {
+    res.send("welcome to mini Uber")
+  });
   app.use(router);
 };
 module.exports = routes;

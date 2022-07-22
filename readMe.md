@@ -1,18 +1,21 @@
-# Upload, view files and store file detais in mongoDB
+# mini cab booking platform
 
-## Details
+## Assumptions
+- let assume that when user searches for driver the driver automatically gets notification with some service.
+- let's assume the points are geo location co-ordinates so, we can use different formula to calculate distance
+- we only allow email to sign in
+- there is only one type of vehicle so, we have not included any vehicle detils
 
-- In this project you can upload your file in a local directory and the details for upload like filename, fileSize, destination and file type will be stored in mongoDB
-
- 👉 👉 CLICK HERE TO WATCHOUT DEMO - https://drive.google.com/file/d/1wB_44ydLUGgOKWUAAkrCqXR6WucePMXv/view?usp=sharing
 
 ## How to Start
 
 - install the pacakages and dependencies by running npm install --save
+-make sure you have mongo installed on mongo
 - make and .env file and write your credentials there as per the sample_env.txt file
 - after installation of npm pacakages run the command npm start or nodemon server.js in the default project directory
 
--  👉 👉 👉 refer testApi.md for testing the APIs 👈 👈 👈 
+-  👉 👉 👉 refer apiDoc.md for documentation 👈 👈 👈 
+- Get postman collection 👉 👉 👉  https://www.getpostman.com/collections/d3d5f99c1f13086a8647 👈 👈 👈 
 
 ## Author
 

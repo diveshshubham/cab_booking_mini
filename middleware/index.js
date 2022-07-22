@@ -1,3 +1,5 @@
 module.exports = {
-    upload:require('./upload/upload')
-}
+    "validateApiKey": require('./apiKey/apiKey'),
+    "validateUserToken": require('./token/userToken'),
+    "validateDriver": require('./token/driverToken')
+};

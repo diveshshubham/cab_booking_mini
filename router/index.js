@@ -1,6 +1,6 @@
 const { defaultPage } = require('../controller');
 
 module.exports = {
-    fileRouts:require('./fileRoutes/fileRoutes'),
-    defaultPage:require('./defaultPath/defaultPath')
+    "userRoutes":require('../router/userRoutes/userRoutes'),
+    "driverRoutes":require('../router/driverRoutes/driverRoutes')
 }
